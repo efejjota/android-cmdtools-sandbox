@@ -1,0 +1,15 @@
+{
+	"name": "Android In Docker",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "develop",
+	"workspaceFolder": "/workspace",
+
+	"remoteEnv": {
+		"LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}"
+	},
+	
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+	"extensions": [],
+}
